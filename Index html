@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayass SHS - Official Website</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f4f6f9; color: #333; }
+    header { background: #003366; color: white; padding: 20px; text-align: center; }
+    header h1 { font-size: 22px; }
+    header p { font-size: 14px; margin-top: 5px; }
+    nav { background: #0055aa; display: flex; flex-wrap: wrap; justify-content: center; }
+    nav a { color: white; padding: 12px 14px; text-decoration: none; font-size: 14px; }
+    nav a:hover { background: #003d80; }
+    .container { padding: 15px; max-width: 900px; margin: auto; }
+    .card { background: white; padding: 18px; margin: 12px 0; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+    .card h2 { color: #003366; margin-bottom: 10px; font-size: 18px; }
+    footer { text-align: center; padding: 15px; background: #003366; color: white; font-size: 13px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎓 Ayass Senior High School</h1>
+    <p>Knowledge • Discipline • Excellence</p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="announcements.html">Announcements</a>
+    <a href="flyers.html">Flyers</a>
+    <a href="attendance.html">Attendance</a>
+    <a href="books.html">Books</a>
+  </nav>
+  <div class="container">
+    <div class="card">
+      <h2>Welcome to Ayass SHS</h2>
+      <p>This is the official online portal for Ayass Senior High School. Here you can find upcoming events, announcements, event flyers, your attendance records, and school books.</p>
+    </div>
+    <div class="card">
+      <h2>What You Can Do Here</h2>
+      <ul style="margin-left: 20px; line-height: 1.8;">
+        <li>📅 View upcoming school events</li>
+        <li>📢 Read latest announcements</li>
+        <li>🖼️ See flyers for events</li>
+        <li>✅ Check your attendance</li>
+        <li>📚 Download school books and notes</li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    © 2025 Ayass SHS. All rights reserved.
+  </footer>
+</body>
+</html>
